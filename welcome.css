@@ -1,0 +1,29 @@
+body{
+    background: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+img{
+    height: 500px;
+    width: 500px;
+    animation: image 3s linear infinite;
+}
+@keyframes image{
+    0%{
+        height: 600px;
+        width: 600px;
+    }
+    50%{
+        height: 500px;
+        width: 500px;
+    }
+    70%{
+        height: 600px;
+        width: 600px;
+    }
+    100%{
+        height: 700px;
+        width: 700px;
+    }
+}
